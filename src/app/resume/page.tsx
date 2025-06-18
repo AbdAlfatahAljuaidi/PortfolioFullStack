@@ -2,19 +2,21 @@
 import React, { useEffect, useState } from 'react'
 import { MdOutlineWork } from "react-icons/md"
 
-const page = () => {
-  const skills = [
-    { name: 'HTML', level: 95 },
-    { name: 'CSS', level: 90 },
-    { name: 'Sass', level: 85 },
-    { name: 'Tailwind CSS', level: 90 },
-    { name: 'Bootstrap', level: 80 },
-    { name: 'JavaScript', level: 90 },
-    { name: 'React', level: 85 },
-    { name: 'Next.js', level: 80 },
-    { name: 'React Native', level: 80 },
-    { name: 'Node.js', level: 90},
-  ]
+const skills = [
+  { name: 'HTML', level: 95 },
+  { name: 'CSS', level: 90 },
+  { name: 'Sass', level: 85 },
+  { name: 'Tailwind CSS', level: 90 },
+  { name: 'Bootstrap', level: 80 },
+  { name: 'JavaScript', level: 90 },
+  { name: 'React', level: 85 },
+  { name: 'Next.js', level: 80 },
+  { name: 'React Native', level: 80 },
+  { name: 'Node.js', level: 90},
+]
+
+const Page = () => {
+  
 
   const [progress, setProgress] = useState(skills.map(() => 0))
 
@@ -133,4 +135,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
