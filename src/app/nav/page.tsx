@@ -30,7 +30,7 @@ const Nav = () => {
                 hover:shadow-[0_0_20px_4px_rgba(59,130,246,0.5)] 
                 transition-all duration-500 ease-in-out">
   <Image
-    src="/pictures/personal.PNG"
+    src="/pictures/Personal.png"
     width={150}
     height={150}
     alt="personal"
@@ -95,7 +95,7 @@ const Nav = () => {
         >
           <div className='flex justify-center'>
             <Image
-              src="/pictures/personal.PNG"
+              src="/pictures/Personal.png"
               width={100}
               height={100}
               alt='personal'
