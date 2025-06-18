@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
-const page = () => {
+const Page = () => {
   return (
     <div className="bg-black text-white px-6 py-10 min-h-screen">
       <h1 className="mt-24 md:mt-[10px] text-4xl font-bold">CONTACTS</h1>
@@ -30,7 +30,7 @@ const page = () => {
               className="p-3 rounded bg-white text-black focus:outline-none"
             />
             <textarea
-              rows="5"
+              rows={5}
               placeholder="Your Message"
               className="p-3 rounded bg-white text-black focus:outline-none resize-none"
             ></textarea>
@@ -84,4 +84,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

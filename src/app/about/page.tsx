@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { MdDesignServices } from "react-icons/md";
 import { FaCode, FaMobileAlt } from "react-icons/fa";
 
-const page = () => {
+const Page = () => {
     return (
         <div className='bg-black text-white p-5 border-r-1 border-white z-50 md:ml-[3px]'>
             <h1 className='mt-[110px] md:mt-[90px] text-4xl font-bold'>ABOUT ME</h1>
@@ -86,4 +86,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
