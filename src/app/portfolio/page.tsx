@@ -1,7 +1,6 @@
 'use client'
 import React, { useState } from 'react'
 import Image from 'next/image'
-import pictures from '@/../public/pictures/About.jpeg'
 import AskStudent from '@/../public/pictures/AskStudent.png'
 import Ocean from '@/../public/pictures/Ocean.png'
 import FITS from '@/../public/pictures/FITS.png'
@@ -10,8 +9,8 @@ import Leon from '@/../public/pictures/Leon.png'
 import Kasper from '@/../public/pictures/Kasper.png'
 import Blog from '@/../public/pictures/Blog.png'
 
-const page = () => {
-  const [showModal, setShowModal] = useState(null)
+const Page = () => {
+  const [showModal, setShowModal] = useState<typeof projects[0] | null>(null)
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 6
 
@@ -255,4 +254,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
